@@ -98,12 +98,40 @@
 	background-color: blue;
 	align-self: stretch;
 	justify-self: stretch;
-
 }
 .servicios .banner{
 	width: 100%;
 	min-height: 300px;
 	background-image: url(../media/Blog.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+	#grilla{
+		grid-template-areas: 
+		"nav nav nav"
+		"prod prod publi"
+		"serv serv publi"
+		"foot foot foot";
+		grid-template-columns: 2fr 2fr 2fr;
+	}
+}
+
+.servicios{
+	grid-area: serv;
+	background-color: blue;
+	align-self: stretch;
+	justify-self: stretch;
+}
+
+.contacto .banner{
+	width: 100%;
+	min-height: 310px;
+	background-image: url(../media/contactanos.jpg);
 	background-position: center;
 	background-size: cover;
 	display: flex;
@@ -612,3 +640,61 @@ a {
     margin: 0;
   }
 }
+/************ BLOG ****************/
+.contenedor{
+    background-color: #93b0e7;
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    border-radius: 4px;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #2e65cc;
+}
+
+.contenedor h1{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.control{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #1f53c5;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+}
+
+.boton{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #2e65cc;
+    font-size: 20px;
+}
+
+.boton:hover{
+    cursor:pointer;
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+/*.boton:active{
+    transform:translateY(3px);
+}
+
+.control:focus{
+    height: 60px;
+}*/
