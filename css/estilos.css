@@ -471,7 +471,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4rem;
   padding: 4rem;
-  margin: 0 auto;
+  margin: 0 0;
   width: max-content;
   background-color: #2d63c9;
 }
@@ -693,7 +693,6 @@ a {
 /*.boton:active{
     transform:translateY(3px);
 }
-
 .control:focus{
     height: 60px;
 }*/
