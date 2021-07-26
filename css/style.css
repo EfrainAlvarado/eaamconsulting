@@ -1,0 +1,196 @@
+/** wwwwwwwwwwwwwwww **/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;700&family=Montserrat:wght@300;500;900&family=Open+Sans:wght@400;700&family=Overpass:wght@300;400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.myTypeR{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color:  white;
+}
+
+.typeBlue{
+    color:  #2e65cc;
+}
+
+.myMainTitle {
+    color: #fff;
+    font-family: "Montserrat",Sans-serif;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    text-shadow: #00000 1px 0 20px;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.myMainDetail {
+    color: #fff;
+    font-family: "Open Sans",Sans-serif;
+    /*text-shadow:  #00000 1px 0 20px;*/
+    text-shadow:2px 2px 4px #FFF, 4px 4px 4px #111,
+    6px 6px 4px #0f123f;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.my404 {
+    color: #fff;
+    font-family: "Montserrat",Sans-serif;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    text-shadow: #00000 1px 0 20px;
+    font-size: 8.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+.headerIni {
+    background-color: #00d2ff;
+    background-image: url("../media/escritorio-1920-1080.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerQuienes {
+    background-color: #00d2ff;
+    background-image: url("../media/Quienes-somos-1902-1280.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerServicios {
+    background-color: #00d2ff;
+    background-image: url("../media/servicios-1920-1275.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBlog {
+    background-color: #00d2ff;
+    background-image: url("../media/blog-1920-1280.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContacto {
+    background-color: #00d2ff;
+    background-image: url("../media/contacto-1920-1080.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerRRSS {
+    background-color: #00d2ff;
+    background-image: url("../media/social-media-1920-1280.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerComingSoon {
+    background-color: #00d2ff;
+    background-image: url("../media/coming-soon-1920-1279.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #2e65cc;
+    font-weight: 600;
+}
+
+.headerAll a:hover {
+    background-color: #2da8f0;
+    color: white;
+    border-radius: 10px;
+}
+
+.logo a:hover {
+    background-color: none;
+    border-radius: 5px;
+}
+
+/** wwwwwwwwwwwwwwww **/
+
+/** Whatsapp **/
+
+.wa a img{
+	width: 50px;
+	position: fixed;
+	bottom: 15px;
+	right: 10px;
+	background-color: none;
+}
+
+.transformImg:hover {
+  transform: scale(1.5,1.5);
+}
+
+/** wwwwwwwwwwwwwwww **/

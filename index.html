@@ -7,46 +7,57 @@
         <meta name="description" content="Ofrecemos servicios de consultoría centrados en  soluciones eficientes, eficaces e innovadoras para start-ups, empresas pequeñas, medianas y grandes">
         <meta name="keywords" content="Dirección de Proyectos, IT Software Factory, Innovación y Transformación Digital, Business Inteligence, Estrategias de Marketing Digital y E-Commerce, Auditorías IT / SOX, Desarrollo y Capacitación - EAAM Consulting">
 
-        <!--- Bootstrap CSS ini --->
+        <!--- Bootstrap / CSS ini --->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-        <!-- -Bootstrap CSS fin --->
+        <!-- -Bootstrap / CSS fin --->
 
         <title>EAAM Consulting - Consultoria Empresarial - Impulsamos tu crecimiento</title>
     </head>
     <body>
-        <!--- menú ini -->
-        <div class="contentHeader3">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler type="button data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="brand">
-                        <a href="#" title="Inicio"><img src="./media/eaam_blue_logo.png" alt="EAAM Consulting Logo" width="420px"></a>
+        <!-- header - myMainTitle - myMainDetail-->
+        <section class="py-5 headerIni text-center">
+            <div class="container py-5 text-white">
+                <header class="py-5">
+                    <h1 class="myMainTitle">EAAM Consulting</h1>
+                    <p class="myMainDetail mb-1">Ofrecemos servicios de consultoría centrados en  soluciones eficientes, eficaces e innovadoras para start-ups, empresas pequeñas, medianas y grandes</p>
+                </header>
+            </div>
+        </section>
+
+        <!-- Menu Sticky navbar ini -->
+        <header class="headerAll sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light py-3 shadow-sm">
+                <div class="container">
+                    <a class="navbar-brand logo" href="#" title="Inicio">
+                        <img src="./media/eaam_blue_logo.png" alt="EAAM Consulting Logo" width="310px">
+                    </a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto myTypeR typeBlue">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/quienessomos.html">¿Quénes somos?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="navbar-nav botonera typeR">
-                        <li class="nav-item active">
-                            <a class="nav-link logo" href="#">Inicio <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/quienessomos.html">¿Quiénes somos?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
                 </div>
             </nav>
-        </div>
-        <!--- menú fin -->
+        </header>
+        <!--- Menu Sticky navbar fin -->
 
         <!--- banner estadísticas ini -->
         <div class="countBanner bandaAzul1" align="center">
@@ -84,17 +95,6 @@
             </div>
         </div>
         <!--- banner estadísticas fin -->
-
-        <!--- banner eaam-consulting ini -->
-        <div class="container-fluid bandaCrema">
-            <div class="container" style="font-size: 1rem;">
-                <div class="indexBanner" align=center>
-                    <H1>EAAM Consulting</H1>
-                    <p>Somos una empresa de consultoría que ofrece soluciones centradas en procesos eficientes, eficaces e innovadoras para start-ups, empresas pequeñas, medianas y grandes</p>
-                </div>           
-            </div>
-        </div>
-        <!--- banner eaam-consulting fin -->
 
         <!--- banner carrousel ini -->
         <div class="carruosel bandaAzul2" align=center>
@@ -228,6 +228,9 @@
         <!--- banner scripts ini -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src="js/index.js"></script>
         <!--- banner scripts fin -->
     </body>
 </html>
