@@ -12,6 +12,9 @@
 .typeBlue{
     color:  #2e65cc;
 }
+/** wwwwwwwwwwwwwwww **/
+
+/** Menu Sticky navbar **/
 
 .myMainTitle {
     color: #fff;
@@ -71,7 +74,7 @@
 
 .headerQuienes {
     background-color: #00d2ff;
-    background-image: url("../media/Quienes-somos-1902-1280.jpg");
+    background-image: url("../media/quienes-somos-1902-1280.jpg");
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -194,3 +197,87 @@
 }
 
 /** wwwwwwwwwwwwwwww **/
+ 
+ /** Testimonios **/
+
+.bannerxTestimonio .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 0.5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    font-size: 0.15rem;
+    color:  white;
+
+}
+
+.bannerTestimonioIni carousel-caption.d-none.d-md-block {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+  /** wwwwwwwwwwwwwwww **/
+
+/** Newsletter **/
+
+.newsLetter .control{
+    width: 100%;
+}
+
+.newsLetter .boton{
+    width: 100%;
+}
+.myCentrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsLetter .contenedor{
+    width: 800px;
+}
+
+  /** wwwwwwwwwwwwwwww **/
+
+/** newFotter **/
+ .newFotter .container-fluid{
+    padding: 0px;
+ }
+
+/** blogTitle **/
+ .blogTitle .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0rem;
+}
+
+ .blogTitle .h1 h1{
+    text-align: center;
+}
+
+/** web1 **/
+.bannerWeb1 .container {
+    display: flex;
+}
+
+.bannerWeb1 img{
+    max-width: 450px;
+}
+
+.bannerWeb1 a:hover {
+    border-radius: 4px;
+}
+
+/** política **/
+.política .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
