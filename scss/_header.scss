@@ -1,0 +1,133 @@
+/** Headers **/
+.headerIni {
+    background-color: $azul4;
+    background-image: url("../media/escritorio-1920-1080.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerQuienes {
+    background-color: $azul4;
+    background-image: url("../media/quienes-somos-1902-1280.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerServicios {
+    background-color: $azul4;
+    background-image: url("../media/servicios-1920-1275.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBlog {
+    background-color: $azul4;
+    background-image: url("../media/blog-1920-1280.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContacto {
+    background-color: $azul4;
+    background-image: url("../media/contacto-1920-1080.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerRRSS {
+    background-color: $azul4;
+    background-image: url("../media/social-media-1920-1280.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerComingSoon {
+    background-color: $azul4;
+    background-image: url("../media/coming-soon-1920-1279.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.my404 {
+    color: $blanco;
+    font-family: "Montserrat",Sans-serif;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    font-size: 8.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.myMainTitle {
+    color: $blanco;
+    font-family: "Montserrat",Sans-serif;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.2;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.myMainDetail {
+    color: $blanco;
+    font-family: "Open Sans",Sans-serif;
+    text-shadow:2px 2px 4px $blanco, 4px 4px 4px #111,
+    6px 6px 4px #0f123f;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+}

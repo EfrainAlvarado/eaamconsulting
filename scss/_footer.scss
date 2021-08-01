@@ -1,0 +1,49 @@
+/** footer **/
+
+.prefooter{
+	width: 100%;
+	/*min-height: 300px;*/
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $azul2;
+}
+
+.prefooter .card {
+    background-color: $azul2;
+	border: none;
+	padding: 0px;
+}
+
+ .newFotter .container-fluid{
+    padding: 0px;
+ }
+
+ .footer a:hover {
+   background-color: $azul5;
+   color: white;
+   border-radius: 15px;
+}
+
+ /** Newsletter **/
+
+.newsLetter .control{
+    width: 100%;
+}
+
+.newsLetter .boton{
+    width: 100%;
+}
+.myCentrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsLetter .contenedor{
+    width: 800px;
+}

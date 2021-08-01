@@ -1,0 +1,13 @@
+/** Whatsapp **/
+
+.wa a img{
+	width: 50px;
+	position: fixed;
+	bottom: 15px;
+	right: 10px;
+	background-color: none;
+}
+
+.transformImg:hover {
+  transform: scale(1.5,1.5);
+}

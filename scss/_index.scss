@@ -1,0 +1,48 @@
+/** web1 **/
+.bannerWeb1 .container {
+    display: flex;
+}
+
+.bannerWeb1 img{
+    max-width: 450px;
+}
+
+.bannerWeb1 a:hover {
+    border-radius: 4px;
+}
+
+/** countBanner **/
+.countBanner .container{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* counter */
+.counter {
+    background-color: $azul3;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: $azul1;
+}

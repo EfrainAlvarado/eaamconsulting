@@ -9,9 +9,11 @@
 
         <!--- Bootstrap / CSS ini --->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="shortcut icon" href="../media/favicon.png">
+
         <link rel="stylesheet" type="text/css" href="../css/estilos.css">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <!--- Bootstrap / CSS fin --->
 
         <title>Contacto para Evaluaciones, Presupuestos y Dudas sobre nuestros Servicios de Consultoría</title>
@@ -31,7 +33,7 @@
         <header class="headerAll sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light py-3 shadow-sm">
                 <div class="container">
-                    <a class="navbar-brand logo" href="#" title="Inicio">
+                    <a class="navbar-brand logo" href="../index.html" title="Inicio">
                         <img src="../media/eaam_blue_logo.png" alt="EAAM Consulting Logo" width="310px">
                     </a>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -60,13 +62,7 @@
         <!--- Menu Sticky navbar fin -->
 
         <!--- banner contactanos ini -->
-        <div class="container-fluid bandaAzul1">
-            <div class="container">
-                <div align=center>
-                </div>           
-            </div>
-        </div>
-       <form class="form-inline">
+        <form class="form-inline">
             <div class="container-fluid newsLetter bandaAzul2">
                 <div class="wow animate__bounceIn typeR blue">
                     <div class="form-group row-md-6">
@@ -79,8 +75,9 @@
                         <input type="email" class="control" name="email" id="email" placeholder="Ingrese su email">
                     </div>
                     <div class="form-group row-md-6">
-                    <input type="text" class="control" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje">
+                        <textarea name="textarea" class="control" rows="5">Ingrese su mensaje</textarea>
                     </div>
+
                     <button type="button" class="btn btn-primary mb-2 boton" data-toggle="modal" data-target="#Modal">Registrar</button>
                     <!-- modal-registrar ini -->
                     <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
@@ -109,12 +106,13 @@
         </form>
         <!--- banner contactanos fin -->
 
-        <!--- banner contactanos-pic ini -->
-        <div class="contacto">
-            <div class="banner">
-            </div>
+        <!--- banner google maps ini -->
+        <div class="container-fluid bandaAzul1" align="center">
+            <h1 class="text-white">Ven a visitarnos</h1>
+            <iframe class="container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.626482202538!2d-58.4129456850528!3d-34.5883165641898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83d2aa1521%3A0xc7a941fe0d021ba0!2sAlto%20Palermo%20Shopping!5e0!3m2!1ses-419!2sar!4v1627787270144!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
         </div>
-        <!--- banner contactanos-pic  fin -->
+        <!--- banner google maps fin -->
 
         <!--- banner newsLetter Ini -->
         <form class="form-inline">
@@ -153,9 +151,9 @@
         <!--- banner newsLetter fin -->
 
         <!--- banner prefooter ini -->
-        <div class="container-fluid prefooter" style="background-color: #93B0E7;">
+        <div class="container-fluid prefooter">
             <div class="container" style="font-size: 1rem;">
-                <div class="row typeR black" style="background-color: #93B0E7;">
+                <div class="row typeR black">
                     <div class="card col-12 col-md-6 col-xl-4" style="width: 18rem;">
                         <img src="../media/socialmedia2.png" class="card-img-top" alt="Social Media">
                         <div class="card-body text-center">
@@ -191,7 +189,7 @@
          <!--- banner newFooter Ini -->
         <div class="newFooter typeR white">
             <div class="container-fluid bandaAzul1">
-                <p align="center"><a href="#" title="Inicio"><img src="../media/eaam_blue_logo_small.png" alt="EAAM Logo small" width= 110px></a>
+                <p align="center"><a href="../index.html" title="Inicio"><img src="../media/eaam_blue_logo_small.png" alt="EAAM Logo small" width= 110px></a>
                 Copyright © 2021 EAAM Consulting. Todos los derechos reservados. <a href="../pages/politica.html" title="Privacidad"><u>Políticas de Privacidad</u></a></p>
             </div>        
         </div>
