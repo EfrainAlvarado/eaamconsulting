@@ -19,13 +19,13 @@ a {
   color: inherit;
 }
 
-card{
+/*card{
   background-color: #93B0E7;
   border: none;
   padding-right: 0px;
   padding-left: 0px;
   padding: 0px;
-}
+}*/
 
 
 .cards-wrapper {
@@ -50,7 +50,6 @@ card{
   color: white;
   border-radius: 1em;
   padding: 1em;
-  /*margin: 2em;*/
   display: flex;
   align-items: flex-end;
   background-size: cover;
@@ -68,7 +67,7 @@ card{
 }
 
 .cards-wrapper .card h1 {
-  margin: 10px;
+  margin: 0px;
   font-size: 1.5em;
   line-height: 1.2em;
 }
@@ -118,7 +117,7 @@ card{
   left: -50%;
   top: -50%;
   z-index: -5;
-  : all, var(--transition-time);
+  transition: all, var(--transition-time);
   transition-timing-function: ease-in-out;
 }
 
